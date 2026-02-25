@@ -83,7 +83,6 @@ export default function ResultCard({ label, config, cab, unit, selected, onSelec
         <Stat label={`Width (${unit})`} value={fmt(config.widthMm)} />
         <Stat label={`Height (${unit})`} value={fmt(config.heightMm)} />
         <Stat label={`Diagonal (${unit})`} value={fmt(config.diagMm)} />
-        <Stat label="Width (mm)" value={round(config.widthMm, 1).toString()} />
       </div>
 
       {/* Grid diagram */}

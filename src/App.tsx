@@ -30,9 +30,8 @@ function App() {
       width:    prev.width    ? String(convertUnit(parseFloat(prev.width),    unit, newUnit)) : '',
       diagonal: prev.diagonal ? String(convertUnit(parseFloat(prev.diagonal), unit, newUnit)) : '',
     }));
-    // Re-run calculation in the new unit if results exist
-    setResult(null);
-    setConfirmed(null);
+    // Results store raw mm values internally — ResultCard converts with fmt() dynamically,
+    // so results update automatically to the new unit without clearing.
   }, [unit]);
 
   // ── Toggle parameter selection (2-of-4) ──────────────────────────────────
