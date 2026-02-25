@@ -6,7 +6,7 @@ A tool for calculating the closest LED cabinet grid configurations for a target 
 
 ## Live Demo
 
-> Deploy link here (Vercel)
+> https://video-wall-calculator-beta.vercel.app/
 
 ---
 
