@@ -149,8 +149,6 @@ function test(id: string, description: string, fn: () => { ok: boolean; detail: 
 // ─── NORMAL TEST CASES ───────────────────────────────────────────────────────
 
 const AR_169 = 16/9;
-const AR_43  = 4/3;
-const AR_11  = 1;
 
 // N1: 16:9 cab, AR=16:9, H=100in
 // Task spec example: lower=7x7 (H=93.01in), upper=8x7 (H=93.01in, wider)

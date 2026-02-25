@@ -176,7 +176,7 @@ function App() {
                       config={result.lower}
                       cab={cabinet}
                       unit={unit}
-                      selected={confirmed?.label === 'Lower'}
+                      selected={false}
                       onSelect={() => setConfirmed({ config: result.lower!, label: 'Lower' })}
                     />
                   ) : (
@@ -191,7 +191,7 @@ function App() {
                       config={result.upper}
                       cab={cabinet}
                       unit={unit}
-                      selected={confirmed?.label === 'Upper'}
+                      selected={false}
                       onSelect={() => setConfirmed({ config: result.upper!, label: 'Upper' })}
                     />
                   ) : (
